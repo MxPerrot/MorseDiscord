@@ -14,22 +14,23 @@ Translated and modified by github user @MxPerrot
 ## Dependencies
 
 1. Install Dependencies
-```bash
-pip install -r requirements.txt
-```
 
-2. Install VBCable
+    ```shell
+    pip install -r requirements.txt
+    ```
 
-Follow instructions at [https://vb-audio.com/Cable/](https://vb-audio.com/Cable/)
+2. Install VBCable in order to create a virtual sound device (Required for use in Discord voice chat)
+
+    Follow instructions at [https://vb-audio.com/Cable/](https://vb-audio.com/Cable/)
 
 3. Run help command 
 
-```bash
-python3 main.py -h
-```
+    ```shell
+    python3 main.py -h
+    ```
 
 4. Run default program (prompts for audio device to output to)
 
-```bash
-python3 main.py
-```
+    ```shell
+    python3 main.py
+    ```
